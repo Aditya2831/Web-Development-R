@@ -1,0 +1,42 @@
+* {
+    font-family: "Libre Baskerville", serif;
+    font-family: "Rubik", sans-serif;
+  }
+
+.grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.last {
+  color: rgb(163, 199, 231);
+  margin-left: 100px;
+  gap: 20px;
+}
+
+.victory,.over {
+  margin-left: 30px;
+}
+
+.turn{
+    margin-left: 15px;
+}
+
+.reset {
+  padding: 20px;
+  margin-left: 105px;
+  background-color: rgba(29, 57, 70, 0.559);
+  box-shadow: 1px 1px 2px rgb(38, 26, 26), 0 0 20px rgba(114, 132, 219, 0.797),
+    0 0 5px rgb(229, 229, 241);
+}
+
+
